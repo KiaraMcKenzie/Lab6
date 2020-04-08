@@ -1,0 +1,73 @@
+
+
+
+#main-navbar{
+ background-color: #000;
+ overflow: hidden;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	
+	
+}
+#main-navbar ul li{
+	float:left;
+	
+
+	
+}
+#main-navbar ul li a {
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	
+	
+}
+
+ #onpage {
+	 background-color: blue;
+	 float:left;
+	
+ }
+	
+#navbar-container{
+ float: left;
+	width:100%;
+	position: relative;
+}
+
+#sidebar {
+	position: fixed;
+	right: 0%;
+}
+
+#sidebar ul{
+	list-style-type: none;
+	padding: 0%;
+	
+}
+#sidebar ul li{
+	height: 100%;
+	width: 100%;
+}
+
+#sidebar a:hover {
+	color: red;
+}
+	
+#sidebar ul li a {
+	background-color: #000;
+	color: #fff;
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+}
+	
